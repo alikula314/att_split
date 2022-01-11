@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 # reading long description from file
 with open('DESCRIPTION.txt') as file:
@@ -24,7 +24,7 @@ setup(name='atts',
       author='Muhammet Ali Kula',
       author_email='alikula3.14@gmail.com',
       license='MIT',
-      packages=find_packages(),
+      packages=['atts'],
       classifiers=CLASSIFIERS,
       install_requires=requirements,
       keywords='adversarial validation train-test-split data-sceince machine-learning'
