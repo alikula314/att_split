@@ -8,7 +8,7 @@ Calculates roc_auc scores for the given test size values. Creates a dataframe wi
 Provides easier change visibility with chart.
 
 ## Install
-LOFO Importance can be installed using
+ATTS can be installed using
 ```
 pip install atts
 ```
